@@ -2,5 +2,5 @@
   "alias": "markus.works",
   "version": 2,
   "name": "markus.works",
-  "builds": [{"src": "index.html", "use": "@now/html-minifier"}]
+  "builds": [{"src": "package.json", "use": "@now/static-build"}]
 }

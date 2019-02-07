@@ -1,0 +1,18 @@
+{
+  "name": "markus.works",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "html-minifier --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --use-short-doctype --minify-css true index.html > dist/index.html",
+    "prebuild": "rm -rf dist && mkdir -p dist",
+		"now-build": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "html-minifier": "^3.5.21"
+  },
+  "devDependencies": {}
+}
